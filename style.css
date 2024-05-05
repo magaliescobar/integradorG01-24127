@@ -1,0 +1,178 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Exa:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+
+    box-sizing: border-box;
+}
+
+.titulo {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    font-size: 3em;
+    color: #54595f;
+
+}
+
+
+.container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 20px;
+
+}
+
+  
+.cart{
+    background-color: #f5f7f9;
+    font-family: Lato, sans-serif;
+}
+
+
+.tabla {
+    border: solid lightgray 1px;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    width: 100%;}
+
+.divtabla {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.divtabla2 {
+
+    margin-top: 3%;
+    /*
+    position: relative;
+    left: 170px;*/
+
+}
+
+
+.tabla-row{
+    border: solid lightgray 1px;
+    line-height: 40px;
+
+}
+
+.table-header {
+    background: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*.last-row{
+    display: flex;
+    flex-direction: row;
+
+}*/
+
+.input-cupon{
+
+    width: 20%;
+    margin-right: 2%
+
+    
+}
+
+.button-cupon {
+    text-align: center;
+    background-color: #0075be;
+    color:white;
+    border: #0075be solid;
+    line-height: 140%;
+    width: 20%;
+    margin-right: 30%;
+
+
+}
+
+.button-update {
+    background-color: #0084d6;
+    color:white;
+    border: #0084d6 solid;
+    line-height: 140%;
+    width: 20%;
+
+
+}
+
+
+input{
+    height: 50%;
+    width: 50px;
+    border: lightgray 1px solid;
+    text-align: center;
+    
+}
+
+th, td {
+    padding-left: 10px;
+    padding-right: 10px;    
+    text-align: center;
+
+}
+
+.remove-icon{
+    width:0.9em;
+}
+
+.imagen-producto{
+    display:flex;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    
+}
+
+
+
+.tabla-row2{
+    border: solid lightgray 1px;
+    line-height: 30px;
+}
+
+.tabla2{
+    border: solid lightgray 1px;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 300px;;
+
+}
+
+.button-pagar {
+    margin-top: 7px;
+    height: 30px;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-weight: bold;
+    font-size: 14px;;
+
+    background-color: #0075be;
+    color:white;
+    border: #0075be solid;
+}
+
+h2{
+    font-size: 16px;
+}
+
+
+form{
+    width: 100%;
+}

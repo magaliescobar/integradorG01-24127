@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cart</title>
+</head>
+<body>
+
+    <header>
+    </header>
+    
+
+
+    <section class="cart"> 
+        <div class="titulo"><h1>Cart</h1></div>
+        <div class="container">
+
+            <div class="divtabla">
+                <form action="">
+                    <table class="tabla">
+                        <thead>
+                            <tr class="table-header">
+                                <th></th>
+                                <th></th>
+                                <th>Producto</th>   
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                                <th>Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tabla-row" >
+                                <td><img class="remove-icon" src="cross-remove-sign-svgrepo-com.svg"></td>
+                                <td><img class="imagen-producto" src="images/buzo.png"></td>
+                                <td>Remera Modelo A</td>
+                                <td><span>$<span class="precio">15.50</span></span></td>
+                                <td><input id="cantidad1" class="cantidad" type="text" inputmode="numeric" placeholder="1" value="1"></td>
+                                <td><span>$<span id="subtotal1"></span></span></td>
+                            </tr>
+                            <tr class="tabla-row" >
+                                <td><img class="remove-icon" src="cross-remove-sign-svgrepo-com.svg"></td>
+                                <td><img class="imagen-producto" src="images/buzo.png"></td>
+                                <td>Buzo Modelo B</td>
+                                <td><span>$<span class="precio">10.00</span></span></td>
+                                <td><input id="cantidad2" class="cantidad" type="text" inputmode="numeric" placeholder="1" value="1"></td>
+                                <td><span>$<span id="subtotal2"></span></span></td>
+                            </tr>
+                            <tr class="tabla-row" >
+                                <td><img class="remove-icon" src="cross-remove-sign-svgrepo-com.svg"></td>
+                                <td><img class="imagen-producto" src="images/buzo.png"></td>
+                                <td>Pantalon Modelo C</td>
+                                <td><span>$<span class="precio">20.00</span></span></td>
+                                <td><input id="cantidad3" class="cantidad" type="text" inputmode="numeric" placeholder="1" value="1"></td>
+                                <td><span>$<span id="subtotal3"></span></span></td>
+                            </tr>
+                            <tr class="tabla-row">
+                                <td colspan="6">
+
+                                    <input class="input-cupon" placeholder="Codigo Cupon" type="text" id="input-cupon">
+                                    <button class="button-cupon" id="button-cupon" type="button">Aplicar Cupon</button>
+                                    <button class="button-update" id="button-update" type="button">Actualizar</button>
+
+
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </form>
+            </div>
+
+            <div class="divtabla2">
+
+                <table class="tabla2">
+                    <tr class="table-header">
+                        <td colspan="2"><h2>Resumen de Compra</h2></td>
+                    </tr>
+                    <tr class="tabla-row2">
+                        <th >Subtotal</th>
+                        <td><span id="subtotal">0.00</span></td>
+                    </tr>
+                    <tr class="tabla-row2">
+                        <th>Descuento</th>
+                        <td><span>$</span><span id="descuento">0.00</span></span></td>
+                    </tr> 
+                    <tr class="tabla-row2 table-header">
+                        <th>Total</th>
+                        <td><span id="total">$0.00</span></td>
+                    </tr>
+                </table>
+
+                <button class="button-pagar">Pagar</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+    <script src="cart.js"></script>
+</body>
+</html>
