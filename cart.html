@@ -32,28 +32,28 @@
                         </thead>
                         <tbody>
                             <tr class="tabla-row" >
-                                <td><img class="remove-icon" src="cross-remove-sign-svgrepo-com.svg"></td>
+                                <td><button type="button" class="button-remove"><img class="img-remove" src="images/cross-remove-sign-svgrepo-com.svg"/></button></td>
                                 <td><img class="imagen-producto" src="images/buzo.png"></td>
                                 <td>Remera Modelo A</td>
                                 <td><span>$<span class="precio">15.50</span></span></td>
-                                <td><input id="cantidad1" class="cantidad" type="text" inputmode="numeric" placeholder="1" value="1"></td>
-                                <td><span>$<span id="subtotal1"></span></span></td>
+                                <td><input oninput="this.value = Math.round(this.value);" id="cantidad1" class="cantidad" type="number" inputmode="numeric" placeholder="1" value="1"></td>
+                                <td><span>$<span class="subtotal" id="subtotal1"></span></span></td>
                             </tr>
                             <tr class="tabla-row" >
-                                <td><img class="remove-icon" src="cross-remove-sign-svgrepo-com.svg"></td>
+                                <td><button type="button" class="button-remove"><img class="img-remove" src="images/cross-remove-sign-svgrepo-com.svg"/></button></td>
                                 <td><img class="imagen-producto" src="images/buzo.png"></td>
                                 <td>Buzo Modelo B</td>
                                 <td><span>$<span class="precio">10.00</span></span></td>
-                                <td><input id="cantidad2" class="cantidad" type="text" inputmode="numeric" placeholder="1" value="1"></td>
-                                <td><span>$<span id="subtotal2"></span></span></td>
+                                <td><input oninput="this.value = Math.round(this.value);" id="cantidad2" class="cantidad" type="number" inputmode="numeric" placeholder="1" value="1"></td>
+                                <td><span>$<span class="subtotal" id="subtotal2"></span></span></td>
                             </tr>
                             <tr class="tabla-row" >
-                                <td><img class="remove-icon" src="cross-remove-sign-svgrepo-com.svg"></td>
+                                <td><button type="button" class="button-remove"><img class="img-remove" src="images/cross-remove-sign-svgrepo-com.svg"/></button></td>
                                 <td><img class="imagen-producto" src="images/buzo.png"></td>
                                 <td>Pantalon Modelo C</td>
                                 <td><span>$<span class="precio">20.00</span></span></td>
-                                <td><input id="cantidad3" class="cantidad" type="text" inputmode="numeric" placeholder="1" value="1"></td>
-                                <td><span>$<span id="subtotal3"></span></span></td>
+                                <td><input oninput="this.value = Math.round(this.value);" id="cantidad3" class="cantidad" type="number" inputmode="numeric" placeholder="1" value="1"></td>
+                                <td><span>$<span class="subtotal" id="subtotal3"></span></span></td>
                             </tr>
                             <tr class="tabla-row">
                                 <td colspan="6">

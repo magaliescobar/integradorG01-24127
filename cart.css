@@ -131,6 +131,10 @@ th, td {
     width:0.9em;
 }
 
+.img-remove{
+    width:1em;
+}
+
 .imagen-producto{
     display:flex;
     margin: 10px;
@@ -175,4 +179,9 @@ h2{
 
 form{
     width: 100%;
+}
+
+
+.button-remove{
+
 }
