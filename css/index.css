@@ -2,8 +2,8 @@
     max-width: 100%!important;
 }
 .logo-site__image {
-    width: 40px;
-    height: 40px;
+    width: 2em;
+    height: auto;
 }
 .footer-social-inner-wrap
 {
@@ -17,5 +17,24 @@
        path {
         fill: #0d6efd;
        }
+    }
+}
+
+.menu-header {
+    justify-content: space-between;
+    @media (min-width: 1400px) {
+        justify-content: center;
+    }
+}
+
+.menu-desktop, ul.menu-desktop {
+    @media (max-width: 1400px) { 
+        display: none;
+    }
+}
+
+.menu-mobile {
+    @media (min-width: 1400px) { 
+        display: none;
     }
 }
