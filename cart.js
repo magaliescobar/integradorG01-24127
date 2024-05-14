@@ -43,7 +43,7 @@ function discount(){
     let inputCupon = document.getElementById("input-cupon");
     descuentoPorcentaje = checkDescuento(inputCupon.value);
     if(descuentoPorcentaje == 0){
-        alert("Codigo Cupon Incorrecto") ;
+        alert("Codigo Cupon Incorrecto - CUPONES: 10%OFF - 15%OFF - 20%OFF") ;
     }
     else{
         alert("Codigo Cupon aplicado");
