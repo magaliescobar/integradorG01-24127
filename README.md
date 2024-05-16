@@ -5,6 +5,5 @@ INTEGRANTES:
 
 - Agustín Ferro
 - Ivan Cataldo
-- Nicolas Agozzino
 - Magali Escobar
 
