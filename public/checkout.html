@@ -21,60 +21,59 @@
     <body>
         <div class="container container-custom">
             <header class="menu-header d-flex flex-wrap align-items-center py-3 mb-4 border-bottom">
-                <div class="col-md-6 col-sm-6 mb-md-0">
-                    <div class="d-flex align-items-center">
-                        <div class="px-2 d-flex align-items-center logo-site">
-                            <a href="index.html" class="nav-link">
-                                <img class="logo-site__image" src="images/logo-site.png" alt="logo-site">
-                                <span class="">Compra Libre</span>
-                            </a>
-                        </div>
-                        <ul class="menu-desktop nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                            <li>
-                                <a href="index.html" class="nav-link px-2 link-secondary">Home</a>
-                            </li>
-                            <li>
-                                <a href="mujeres.html" class="nav-link px-2">Mujeres</a>
-                            </li>
-                            <li>
-                                <a href="hombres.html" class="nav-link px-2">Hombres</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 text-end">
-                    <ul class="nav menu-desktop col-md-auto mb-2 justify-content-end mb-md-0">
-                        <li><a href="#" class="nav-link px-2">Acerca</a></li>
-                        <li><a href="#" class="nav-link px-2">Contacto</a></li>
-                    </ul>
-                    <span class="menu-mobile">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars"
-                            aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon">
-                                <svg width="18" height="12" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 0.6C0 0.268629 0.268629 0 0.6 0H17.4C17.7314 0 18 0.268629 18 0.6C18 0.931371 17.7314 1.2 17.4 1.2H0.6C0.268629 1.2 0 0.931371 0 0.6Z"></path>
-                                    <path class="middle" d="M0 5.6C0 5.26863 0.268629 5 0.6 5H17.4C17.7314 5 18 5.26863 18 5.6C18 5.93137 17.7314 6.2 17.4 6.2H0.6C0.268629 6.2 0 5.93137 0 5.6Z"></path><path d="M0.6 10C0.268629 10 0 10.2686 0 10.6C0 10.9314 0.268629 11.2 0.6 11.2H17.4C17.7314 11.2 18 10.9314 18 10.6C18 10.2686 17.7314 10 17.4 10H0.6Z"></path>
-                                </svg>
-                            </span>
-                        </button>
-                        <div class="navbar-collapse collapse" id="navbars">
-                            <ul class="navbar-nav me-auto mb-2">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="mujeres.html">Mujeres</a>
+                <div class="menu-desktop d-flex flex-wrap col-md-12 col-sm-12">
+                    <div class="menu-desktop col-md-6 col-sm-6 mb-md-0">
+                        <div class="d-flex align-items-center">
+                            <div class="px-2 d-flex align-items-center logo-site">
+                                <a href="index.html" class="nav-link">
+                                    <img class="logo-site__image" src="images/logo-site.png" alt="logo-site">
+                                    <span class="">Compra Libre</span>
+                                </a>
+                            </div>
+                            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                                <li>
+                                    <a href="index.html" class="nav-link px-2 link-secondary">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="hombres.html">Hombres</a>
+                                <li>
+                                    <a href="mujeres.html" class="nav-link px-2">Mujeres</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Acerca</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contacto</a>
+                                <li>
+                                    <a href="hombres.html" class="nav-link px-2">Hombres</a>
                                 </li>
                             </ul>
                         </div>
-                    </span>
+                    </div>
+                    <div class="menu-desktop col-md-6 col-sm-6 text-end">
+                        <ul class="nav col-md-auto mb-2 justify-content-end mb-md-0">
+                            <li><a href="#" class="nav-link px-2">Acerca</a></li>
+                            <li><a href="#" class="nav-link px-2">Contacto</a></li>
+                        </ul>
+                    </div>
                 </div>
+                <nav class="menu-mobile navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Compra Libre</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars"
+                            aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><span>
+                        </button>
+                        <div class="navbar-collapse collapse" id="navbars">
+                            <div class="navbar-nav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="mujeres.html">Mujeres</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="hombres.html">Hombres</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </header>
         </div>
         <div class="container">
