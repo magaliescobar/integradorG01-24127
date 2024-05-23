@@ -19,20 +19,17 @@
        }
     }
 }
-
 .menu-header {
     justify-content: space-between;
     @media (min-width: 1400px) {
         justify-content: center;
     }
 }
-
 .menu-desktop {
     @media (max-width: 1400px) { 
         display: none;
     }
 }
-
 nav.menu-mobile {
     width: 100%;
     @media (min-width: 1400px) { 
