@@ -27,13 +27,14 @@
     }
 }
 
-.menu-desktop, ul.menu-desktop {
+.menu-desktop {
     @media (max-width: 1400px) { 
         display: none;
     }
 }
 
-.menu-mobile {
+nav.menu-mobile {
+    width: 100%;
     @media (min-width: 1400px) { 
         display: none;
     }
