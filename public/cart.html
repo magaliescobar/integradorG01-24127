@@ -19,7 +19,7 @@
 </head>
 <body>
     <div class="container container-custom">
-		<header class="menu-header d-flex flex-wrap align-items-center py-3 mb-4 border-bottom">
+		<header class="menu-header d-flex flex-wrap align-items-center py-3 pb-5 border-bottom">
 			<div class="menu-desktop d-flex flex-wrap col-md-12 col-sm-12">
 				<div class="menu-desktop col-md-6 col-sm-6 mb-md-0">
 					<div class="d-flex align-items-center">
@@ -42,8 +42,10 @@
 						</ul>
 					</div>
 				</div>
-				<div class="menu-desktop col-md-6 col-sm-6 text-end">
+				<div class="menu-desktop  nav-cart col-md-6 col-sm-6 text-end row justify-content-end">
 					<ul class="nav col-md-auto mb-2 justify-content-end mb-md-0">
+						<li><a href="cart.html" class="nav-link px-2 "><img src="./images/bag-shop.png" class="cart"   alt="bag-shop-online"></a></li>
+					
 						<li><a href="contact.html" class="nav-link px-2">Contacto</a></li>
 					</ul>
 				</div>
@@ -65,7 +67,10 @@
 									<a class="nav-link" href="hombres.html">Hombres</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Contacto</a>
+									<a class="nav-link" href="./cart.html">Carro de compras</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="./contact.html">Contacto</a>
 								</li>
 							</ul>
 						</div>
@@ -93,7 +98,7 @@
                         <tbody>
                             <tr class="tabla-row" >
                                 <td><button type="button" class="button-remove"><img class="img-remove" src="images/cross-remove-sign-svgrepo-com.svg" alt="boton remover producto"></button></td>
-                                <td class="image-row"><img class="imagen-producto" src="images/buzo.png" alt="imagen del producto"></td>
+                                <td class="image-row"><img class="imagen-producto" src="./images/tshirt-shop.jpg" alt="imagen del producto"></td>
                                 <td>Remera Modelo A</td>
                                 <td><span>$<span class="precio">15.50</span></span></td>
                                 <td><input oninput="this.value = Math.round(this.value);" id="cantidad1" class="cantidad" type="number" placeholder="1" value="1"></td>
@@ -101,7 +106,7 @@
                             </tr>
                             <tr class="tabla-row" >
                                 <td><button type="button" class="button-remove"><img class="img-remove" src="images/cross-remove-sign-svgrepo-com.svg" alt="boton remover producto"></button></td>
-                                <td><img class="imagen-producto" src="images/buzo.png" alt="imagen del prodcuto"></td>
+                                <td><img class="imagen-producto" src="./images/buzo-hombre-shop.jpg" alt="imagen del prodcuto"></td>
                                 <td>Buzo Modelo B</td>
                                 <td ><span>$<span class="precio">10.00</span></span></td>
                                 <td><input oninput="this.value = Math.round(this.value);" id="cantidad2" class="cantidad" type="number" placeholder="1" value="1"></td>
@@ -109,7 +114,7 @@
                             </tr>
                             <tr class="tabla-row" >
                                 <td><button type="button" class="button-remove"><img class="img-remove" src="images/cross-remove-sign-svgrepo-com.svg" alt="boton remover producto"></button></td>
-                                <td><img class="imagen-producto" src="images/buzo.png" alt="imagen del producto"></td>
+                                <td><img class="imagen-producto" src="./images/pantalon-hombre-shop.jpg" alt="imagen del producto"></td>
                                 <td>Pantalon Modelo C</td>
                                 <td><span>$<span class="precio">20.00</span></span></td>
                                 <td><input oninput="this.value = Math.round(this.value);" id="cantidad3" class="cantidad" type="number" placeholder="1" value="1"></td>

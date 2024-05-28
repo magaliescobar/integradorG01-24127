@@ -21,7 +21,7 @@
 
 <body>
 	<div class="container container-custom">
-		<header class="menu-header d-flex flex-wrap align-items-center py-3 mb-4 border-bottom">
+		<header class="menu-header d-flex flex-wrap align-items-center py-3 pb-5 border-bottom">
 			<div class="menu-desktop d-flex flex-wrap col-md-12 col-sm-12">
 				<div class="menu-desktop col-md-6 col-sm-6 mb-md-0">
 					<div class="d-flex align-items-center">
@@ -44,8 +44,10 @@
 						</ul>
 					</div>
 				</div>
-				<div class="menu-desktop col-md-6 col-sm-6 text-end">
+				<div class="menu-desktop  nav-cart col-md-6 col-sm-6 text-end row justify-content-end">
 					<ul class="nav col-md-auto mb-2 justify-content-end mb-md-0">
+						<li><a href="cart.html" class="nav-link px-2 "><img src="./images/bag-shop.png" class="cart"   alt="bag-shop-online"></a></li>
+					
 						<li><a href="contact.html" class="nav-link px-2">Contacto</a></li>
 					</ul>
 				</div>
@@ -67,7 +69,10 @@
 									<a class="nav-link" href="hombres.html">Hombres</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Contacto</a>
+									<a class="nav-link" href="./cart.html">Carro de compras</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="./contact.html">Contacto</a>
 								</li>
 							</ul>
 						</div>
@@ -357,13 +362,13 @@
 							<div class="col-12 my-2  my-md-0 col-sm-6 d-inline-block  px-lg-0 px-xl-2">
 								<label for="text-max" class="col-form-label d-inline-block col-3 ">Min</label>
 								<div class="col-8 d-inline-block ">
-									<input type="text" class="form-control" id="text-min" placeholder="min">
+									<input type="text" class="form-control" id="text-min" placeholder="minimo">
 								</div>
 							</div>
 							<div class="col-12 col-sm-6 d-inline-block  px-lg-0 px-xl-1">
 								<label for="text-max" class="col-form-label d-inline-block col-3 ">Max</label>
 								<div class="col-8 d-inline-block ">
-									<input type="text" class="form-control" id="text-max" placeholder="man">
+									<input type="text" class="form-control" id="text-max" placeholder="maximo">
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-6">
@@ -376,7 +381,7 @@
 						<ul>
 							<li class="li-categories d-block my-3">
 								<div class="  col-9 d-inline-block ">
-									<a class="a-categories " href="#">Accesorios</a>
+									<a class="a-categories " href="./mujeres.html">Accesorios</a>
 								</div>
 								<div class="col-2 d-inline-block text-end">
 									<span class=""> (7)</span>
@@ -384,7 +389,7 @@
 							</li>
 							<li class="li-categories d-block my-3">
 								<div class="  col-9 d-inline-block ">
-									<a class="a-categories " href="#">Hombres</a>
+									<a class="a-categories " href="./hombres.html">Hombres</a>
 								</div>
 								<div class="col-2 d-inline-block text-end">
 									<span class=""> (14)</span>
@@ -393,7 +398,7 @@
 							</li>
 							<li class="li-categories d-block my-3">
 								<div class="col-9 d-inline-block ">
-									<a class="a-categories " href="#">Mujeres</a>
+									<a class="a-categories " href="./mujeres.html">Mujeres</a>
 								</div>
 								<div class="col-2 d-inline-block text-end">
 									<span class=""> (17)</span>
@@ -410,15 +415,15 @@
 					<div class="card mb-3">
 						<div class="row g-0">
 							<div class="col-3 col-md-2 col-lg-4 ">
-								<a href="">
+								<a href="./detail.html">
 									<img src="./images/campera.jpg" class="img-fluid rounded-start"
-										alt="...">
+										alt="campera negra">
 								</a>
 							</div>
 							<div class="col-8 col-lg-6 mx-lg-2 mx-xl-0 ">
 								<div class="card-body p-0 pl-lg-5">
 									<h6 class="card-title m-0">
-										<a href="">
+										<a href="./detail.html">
 											Campera Negra
 										</a>
 									</h6>
@@ -448,15 +453,15 @@
 					<div class="card mb-3">
 						<div class="row g-0">
 							<div class="col-3 col-md-2 col-lg-4 ">
-								<a href="">
+								<a href="./detail.html">
 									<img src="./images/bolso.jpg" class="img-fluid rounded-start"
-										alt="...">
+										alt="bolso mujer">
 								</a>
 							</div>
 							<div class="col-8 col-lg-6 mx-lg-2 mx-xl-0">
 								<div class="card-body p-0">
 									<h6 class="card-title m-0">
-										<a href="">
+										<a href="./detail.html">
 											Cartera
 										</a>
 									</h6>
@@ -486,15 +491,15 @@
 					<div class="card mb-3">
 						<div class="row g-0">
 							<div class="col-3 col-md-2 col-lg-4 ">
-								<a href="">
+								<a href="./detail.html">
 									<img src="./images/cartera.jpg" class="img-fluid rounded-start"
-										alt="...">
+										alt="bolso mujer">
 								</a>
 							</div>
 							<div class="col-8 col-lg-6 mx-lg-2 mx-xl-0">
 								<div class="card-body p-0">
 									<h6 class="card-title m-0">
-										<a href="">
+										<a href="./detail.html">
 											Cartera Red
 										</a>
 									</h6>
@@ -524,15 +529,15 @@
 					<div class="card mb-3">
 						<div class="row g-0">
 							<div class="col-3 col-md-2 col-lg-4 ">
-								<a href="">
+								<a href="./detail.html">
 									<img src="./images/zapatilla.jpg" class="img-fluid rounded-start"
-										alt="...">
+										alt="zapatilla">
 								</a>
 							</div>
 							<div class="col-8 col-lg-6 mx-lg-2 mx-xl-0">
 								<div class="card-body p-0">
 									<h6 class="card-title m-0">
-										<a href="">
+										<a href="./detail.html">
 											Zapatilla ilusion 
 										</a>
 									</h6>
