@@ -5,6 +5,7 @@
     width: 2em;
     height: auto;
 }
+
 .footer-social-inner-wrap
 {
     a {
@@ -23,6 +24,9 @@
     justify-content: space-between;
     @media (min-width: 1400px) {
         justify-content: center;
+
+            height: 65px;
+        
     }
 }
 .menu-desktop {
@@ -30,9 +34,23 @@
         display: none;
     }
 }
+.nav .cart{
+    
+    height: 30px;
+    
+}
+.menu-desktop .nav-cart{
+    @media (max-width: 1400px) { 
+        display: none;
+        
+        
+    }
+}
 nav.menu-mobile {
     width: 100%;
     @media (min-width: 1400px) { 
         display: none;
+        
+
     }
 }
